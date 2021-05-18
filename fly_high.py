@@ -206,7 +206,6 @@ class Game:
         self.screen.blit(score_font, font_rect)  # show score font
 
 
-#os.chdir(os.path.dirname(__file__))
 if __name__ == "__main__":
     game = Game()
     game.run()
