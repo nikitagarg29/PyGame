@@ -19,7 +19,7 @@ class Player:
         self.player_sprites = [pygame.image.load("images/1.png").convert_alpha(),
                              pygame.image.load("images/2.png").convert_alpha(),
                              pygame.image.load("images/dead.png").convert_alpha()]
-        # self.img_rect =
+        
 
     def move(self):
         if self.dead:  # dead player
