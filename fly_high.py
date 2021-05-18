@@ -96,7 +96,7 @@ class Options:
 class Game:
     def __init__(self):
         self.screen = pygame.display.set_mode((SIZE[0], SIZE[1]))
-        pygame.display.set_caption("Flappy player")
+        pygame.display.set_caption("Fly High")
         self.background = pygame.image.load("images/background.png").convert()  # background image
         self.pillar_x = 400
         self.offset = 0
